@@ -5,6 +5,9 @@ import { useNavigate } from "react-router-dom";
 
 const MyVerticallyCenteredModal = (props) => {
   let navigate = useNavigate();
+
+  
+
   return (
     <>
       <Modal

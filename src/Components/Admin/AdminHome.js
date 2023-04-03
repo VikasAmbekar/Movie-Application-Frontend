@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import AdminNav from "./AdminNav";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import classes from "./AdminHome.module.css";
@@ -13,6 +12,7 @@ import {
 import AddMoviePopUp from "./AddMoviePopUp";
 import AddTheaterPopUp from "./AddTheaterPopUp";
 import UserFooter from "../User/UserGeneral/UserFooter";
+import UserHeader from "../User/UserGeneral/UserHeader";
 
 const AdminHome = () => {
   let navigate = useNavigate();
@@ -21,7 +21,7 @@ const AdminHome = () => {
 
   return (
     <>
-      <AdminNav />
+      <UserHeader />
       <br />
       <div className={classes.mainCard}>
         <Card className={classes.adminCards}>
