@@ -1,25 +1,51 @@
-.navBar {
-  background-color: #13363d;
-  color: white;
+
+
+.mainNav{
+  display: flex;
+  background-image: linear-gradient(55deg,rgba(157,34,53,0.9),rgba(0,71,171,0.9));  
+  padding: 0.8rem;
 }
 
-.brand {
+.mainLink{
+  text-decoration: none;
+  font-size: x-large;
   color: white;
+  font-weight: bold;
+  transition: 0.3s;
+  padding: 0.3rem;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: white;
+.mainLink:hover{
+  color:black;
 }
 
-.nav-link {
+.cityDrop{
+  padding: 0.6rem;
+  margin-left: 55% ;
   color: white;
+  font-weight: bold;
 }
 
-.navdiv {
+.userDrop{
+  padding: 0.6rem;
+  margin-left: 10px;
   color: white;
+  font-weight: bold;
 }
 
-.nav-link {
-  color: white;
+.logOutBtn{
+  margin-left: 15px;
+  background-color:rgba(157,34,53,0.8);
+  border-radius: 10px;
+  border: 1px solid rgb(0,71,171);
+  color:white;
+  transition: 0.3s;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.logOutBtn:hover{
+  color:rgba(157,34,53,1);
+  background-color:white;
+  border: 1px solid white;
 }
