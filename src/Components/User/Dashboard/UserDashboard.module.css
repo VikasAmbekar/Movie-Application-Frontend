@@ -1,0 +1,11 @@
+.searchBar {
+  width: 20rem;
+  margin-bottom: 1%;
+  /* margin-left: 0rem; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  border-radius: 5px;
+  padding: 0.3rem;
+}

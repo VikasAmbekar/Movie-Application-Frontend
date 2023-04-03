@@ -1,0 +1,11 @@
+.movieTable{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0.35rem;
+}
+
+.movieRow{
+    border: 1px solid black;
+    margin: 0.35rem;
+    text-align: center;
+}

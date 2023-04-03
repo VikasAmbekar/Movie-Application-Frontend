@@ -1,0 +1,59 @@
+.loginForm {
+  align-items: center;
+  justify-content: center;
+  width: 28rem;
+  height: 27rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.loginLabel {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.loginInput[type="tel"],
+.loginInput[type="password"] {
+  width: 50%;
+  height: 40px;
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.loginInput[type="tel"]:focus,
+.loginInput[type="password"]:focus {
+  outline: none;
+  border-color: #c5122d;
+  box-shadow: 0px 0px 5px #c5122d;
+}
+
+.loginButtom {
+  background-color: #c5122d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 30%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginButtom :hover {
+  background-color: #c5122d;
+}
+
+.loginSignUp {
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.loginSignUpP {
+  font-weight: 500;
+}

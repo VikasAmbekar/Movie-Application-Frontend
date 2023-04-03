@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Home from "./Components/Home/Home";
+import { Route, Routes } from "react-router-dom";
+import UserSignUp from "./Components/User/UserSignUp";
+import UserDashboard from "./Components/User/Dashboard/UserDashboard";
+import Admin from "./Components/Admin/Admin";
+import AdminHome from "./Components/Admin/AdminHome";
+import BookTicket from "./Components/User/UserGeneral/BookTicket";
+import AdminMovieOps from "./Components/Admin/AdminMovieOps";
+import AdminTheaterOps from "./Components/Admin/AdminTheaterOps";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/user-signup" element={<UserSignUp />} />
+          <Route path="/dashboard" element={<UserDashboard />} />
+          <Route path="/admin-login" element={<Admin />} />
+          <Route path="/admin-home" element={<AdminHome />} />
+          <Route path="/book-ticket" element={<BookTicket />} />
+          <Route path="/admin-movie-ops" element={<AdminMovieOps />} />
+          <Route path="/admin-theater-ops" element={<AdminTheaterOps />} />
+        </Routes>
+      </div>
+      ;
+    </>
   );
 }
 

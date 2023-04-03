@@ -1,0 +1,93 @@
+.headerTop {
+  width: 100%;
+  height: 4rem;
+  background-color: #13363d;
+  position: fixed;
+  top: 0;
+  display: flex;
+}
+
+.logo {
+  padding: 1.3rem;
+  width: 85%;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.logolink {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  left: 0;
+  margin-right: 55rem;
+  cursor: pointer;
+}
+
+.maininfo {
+  display: flex;
+}
+
+.adminlogin {
+  margin-top: 1.3rem;
+  width: 15%;
+  align-items: right;
+  justify-content: right;
+}
+
+.adminbtn {
+  padding: 0.4rem;
+  border: none;
+  border-radius: 3px;
+  background-color: #c5122d;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bottom {
+  background-color: gray;
+  width: 100%;
+  height: 2.5rem;
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 1rem;
+  color: white;
+  padding-top: 0.5rem;
+}
+
+.carousel {
+  width: 60rem;
+  height: 21rem;
+  /* border: 2px solid black; */
+  /* border-radius: 1rem; */
+  left: 0;
+  margin-top: 4.5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 1rem;
+  border-radius: 0.5px;
+}
+
+.carouselImage {
+}
+
+.loginForm {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* height: 70vh;
+  width: 40%; */
+
+  /* border: 2px solid red; */
+  margin-top: 5rem;
+  /* margin-left: 0.3rem;
+  margin-right: 0.5rem; */
+}
+
+.imageSlide {
+  border-radius: 6px;
+}
