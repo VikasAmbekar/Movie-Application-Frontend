@@ -22,3 +22,15 @@
   display: inline-flex;
   flex-direction: row;
 }
+
+.theaterList {
+  list-style: none;
+}
+
+.theaterListButton {
+  margin-left: 30%;
+}
+
+span {
+  font-weight: bold;
+}

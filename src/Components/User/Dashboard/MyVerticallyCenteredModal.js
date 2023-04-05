@@ -1,10 +1,53 @@
-import React from "react";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
 import Modal from "react-bootstrap/Modal";
 import { useNavigate } from "react-router-dom";
 
 const MyVerticallyCenteredModal = (props) => {
   let navigate = useNavigate();
+  const [theater, setTheater] = useState([]);
+
+  let city = localStorage.getItem("city");
+  console.log(city);
+
+  // async function getTheaterByCity() {
+  //   // let movieList = theater.map((list) => {
+  //   //   console.log(
+  //   //     list.movieList.map((list1) => {
+  //   //       // console.log(list1);
+  //   //     })
+  //   //   );
+  //   // });
+  //   // // console.log(movieList);
+
+  //   const movieId = props.movieId;
+  //   console.log(movieId);
+  //   await axios
+  //     .get(`http://localhost:8700/theater/${city}/${movieId}`)
+  //     .then((res) => {
+  //       console.log(res.data);
+  //     });
+
+  //   // await axios.get("http://localhost:8700/theater/").then((res) => {
+  //   //   setTheater(res.data);
+  //   // });
+  // }
+
+  // useEffect(() => {
+  //   getTheaterByCity();
+  // }, []);
+
+  useEffect(() => {
+    const movieId = props.movieId;
+    console.log(props.movieId);
+    axios
+      .get(`http://localhost:8700/theater/${city}/${movieId}`)
+      .then((res) => {
+        setTheater(res.data);
+        console.log(res.data);
+      });
+  }, []);
 
   return (
     <>

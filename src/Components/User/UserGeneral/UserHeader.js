@@ -1,14 +1,19 @@
 import React from "react";
-import { Button, Dropdown } from "react-bootstrap";
 import classes from "./UserHeader.module.css";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link, useNavigate } from "react-router-dom";
 
 const UserHeader = () => {
   let navigate = useNavigate();
+
+  let userStorage1 = localStorage.getItem("Userdata");
+  let userStorage = JSON.parse(userStorage1);
+  console.log(userStorage);
+
+  function setCity(city) {
+    localStorage.setItem("city", city);
+    console.log(localStorage.getItem("city"));
+  }
   return (
     <>
       <div className={classes.mainNav} id="grad">
@@ -16,24 +21,24 @@ const UserHeader = () => {
           MovieMate
         </a>
 
-        <NavDropdown
-          title="City"
-          id="basic-nav-dropdown"
+        <select
+          name="City"
+          onChange={(e) => setCity(e.target.value)}
           className={classes.cityDrop}
         >
-          <NavDropdown.Item href="#">Mumbai</NavDropdown.Item>
+          <option value="Mumbai">Mumbai</option>
 
-          <NavDropdown.Item href="#">Delhi</NavDropdown.Item>
+          <option value="Delhi">Delhi</option>
 
-          <NavDropdown.Item href="#action/3.3">Bangalore</NavDropdown.Item>
+          <option value="Bangalore">Bangalore</option>
 
-          <NavDropdown.Item href="#action/3.4">Kolkata</NavDropdown.Item>
+          <option value="Kolkata">Kolkata</option>
 
-          <NavDropdown.Item href="#action/3.4">Pune</NavDropdown.Item>
-        </NavDropdown>
+          <option value="Pune">Pune</option>
+        </select>
 
         <NavDropdown
-          title="Hi, Username"
+          title={`Hi, ${userStorage.name}`}
           id="basic-nav-dropdown"
           className={classes.userDrop}
         >

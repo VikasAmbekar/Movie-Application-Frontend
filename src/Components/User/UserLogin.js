@@ -20,20 +20,6 @@ const UserLogin = () => {
       return;
     }
 
-    // // Make GET request to Spring Boot backend
-    // axios
-    //   .get(`http://localhost:8700/user/`)
-    //   .then((response) => {
-    //     if (response.data.success) {
-    //       alert("Login successful!");
-    //     } else {
-    //       setErrorMessage("Invalid mobile number or password");
-    //     }
-    //   })
-    //   .catch((error) => {
-    //     setErrorMessage("An error occurred. Please try again later.");
-    //   });
-
     const found = backData.find((element) => element.mobileNo == mobile);
     if (found == null) {
       alert("Login failed", window.location.reload());
@@ -42,6 +28,7 @@ const UserLogin = () => {
         console.log("Login Success");
         alert("Login successful!");
         navigate("/dashboard");
+        localStorage.setItem("Userdata", JSON.stringify(found));
       } else if (found.password == password) {
         alert("Password is not proper", window.location.reload());
       } else {

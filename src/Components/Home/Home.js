@@ -54,11 +54,13 @@ const Home = () => {
               return (
                 <Carousel.Item className={classes.carouselImage}>
                   <img
-                    className="d-block w-100 h-50"
+                    className="d-block"
                     src={movie.movieImage}
                     alt="Second slide"
                     style={{
-                      borderRadius: "0.3rem",
+                      borderRadius: "10px",
+                      width: "100%",
+                      height: "78vh",
                     }}
                   />
                   <Carousel.Caption>
