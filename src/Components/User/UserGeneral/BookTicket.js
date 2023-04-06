@@ -40,26 +40,31 @@ const BookTicket = () => {
   return (
     <>
       <UserHeader />
-      <div className={classes.bookTicketBody}>
-        <h1>{theaterById.name}</h1>
-        <p>{theaterById.address}</p>
-        <br />
-        <h2>{movieById.movieTitle} </h2>
-        <img src={movieById.movieImage} width="350px" height="250px" />
-        <p></p>
-      </div>
-      <div>
-        <Button className={classes.bookTicketBtn} variant="success">
-          Confirm Tickets
-        </Button>
-        <Button
-          className={classes.bookTicketBtn}
-          onClick={() => navigate("/book-ticket")}
-          variant="danger"
-        >
-          Cancel
-        </Button>
-        <UserFooter />
+      <div
+        className={classes.backImag}
+        style={{ backgroundImage: `${movieById.movieImage} ` }}
+      >
+        <div className={classes.bookTicketBody}>
+          <h1>{theaterById.name}</h1>
+          <p>{theaterById.address}</p>
+          <br />
+          <h2>{movieById.movieTitle} </h2>
+          <img src={movieById.movieImage} width="350px" height="250px" />
+          <p></p>
+        </div>
+        <div>
+          <Button className={classes.bookTicketBtn} variant="success">
+            Confirm Tickets
+          </Button>
+          <Button
+            className={classes.bookTicketBtn}
+            onClick={() => navigate("/book-ticket")}
+            variant="danger"
+          >
+            Cancel
+          </Button>
+          <UserFooter />
+        </div>
       </div>
     </>
   );

@@ -8,6 +8,7 @@ import AdminHome from "./Components/Admin/AdminHome";
 import BookTicket from "./Components/User/UserGeneral/BookTicket";
 import AdminMovieOps from "./Components/Admin/AdminMovieOps";
 import AdminTheaterOps from "./Components/Admin/AdminTheaterOps";
+import UserProfile from "./Components/User/UserGeneral/UserProfile";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/book-ticket" element={<BookTicket />} />
           <Route path="/admin-movie-ops" element={<AdminMovieOps />} />
           <Route path="/admin-theater-ops" element={<AdminTheaterOps />} />
+          <Route path="/my-profile" element={<UserProfile />} />
         </Routes>
       </div>
       ;

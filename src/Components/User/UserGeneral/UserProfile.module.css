@@ -1,0 +1,11 @@
+.updateBtn {
+  color: white;
+  border-radius: 4px;
+  background-color: rgba(157, 34, 53, 1);
+  border: none;
+  padding: 3px;
+}
+
+.updateBtnU {
+  margin-left: 15rem;
+}

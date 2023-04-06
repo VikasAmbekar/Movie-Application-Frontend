@@ -28,7 +28,8 @@ const UserLogin = () => {
         console.log("Login Success");
         alert("Login successful!");
         navigate("/dashboard");
-        localStorage.setItem("Userdata", JSON.stringify(found));
+        localStorage.setItem("UserId", JSON.stringify(found.mobileNo));
+        localStorage.setItem("UserName", JSON.stringify(found.name));
       } else if (found.password == password) {
         alert("Password is not proper", window.location.reload());
       } else {

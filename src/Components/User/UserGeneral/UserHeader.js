@@ -6,9 +6,9 @@ import { Link, useNavigate } from "react-router-dom";
 const UserHeader = () => {
   let navigate = useNavigate();
 
-  let userStorage1 = localStorage.getItem("Userdata");
+  let userStorage1 = localStorage.getItem("UserName");
   let userStorage = JSON.parse(userStorage1);
-  console.log(userStorage);
+  // console.log(userStorage);
 
   function setCity(city) {
     localStorage.setItem("city", city);
@@ -38,12 +38,14 @@ const UserHeader = () => {
         </select>
 
         <NavDropdown
-          title={`Hi, ${userStorage.name}`}
+          title={`Hi, ${userStorage}`}
           id="basic-nav-dropdown"
           className={classes.userDrop}
         >
-          <NavDropdown.Item href="#action/3.1">My Bookings</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Update Profile</NavDropdown.Item>
+          <NavDropdown.Item>My Bookings</NavDropdown.Item>
+          <NavDropdown.Item onClick={() => navigate("/my-profile")}>
+            My Profile
+          </NavDropdown.Item>
         </NavDropdown>
 
         <button className={classes.logOutBtn} onClick={() => navigate("/")}>
