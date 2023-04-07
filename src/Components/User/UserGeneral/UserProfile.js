@@ -21,6 +21,11 @@ const UserProfile = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const [updateName, setUpdateName] = useState("");
+  const [updatePassword, setUpdatePassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [show1, setShow1] = useState(false);
+  const handleClose1 = () => setShow1(false);
+  const handleShow1 = () => setShow1(true);
 
   //   const nameUpdate = (e) => {
   //     setUpdateName(e.target.value);
@@ -28,6 +33,44 @@ const UserProfile = () => {
   //   };
 
   useEffect(() => {}, []);
+
+  const changeName = () => {
+    let requestBody = {
+      name: updateName,
+    };
+
+    if (updateName == "") {
+      alert("Name field is empty");
+    } else {
+      axios
+        .patch(`http://localhost:8700/user/${userStore}/name`, requestBody)
+        .then((res) => {
+          console.log(res);
+        });
+      setShow(false);
+      alert("Name updated successfully!", window.location.reload());
+    }
+  };
+
+  const changePassword = () => {
+    let requestBody = {
+      password: updatePassword,
+    };
+
+    if (updatePassword == "") {
+      alert("Password field can not be empty");
+    } else if (updatePassword != confirmPassword) {
+      alert("Password Mismatch!");
+    } else {
+      axios
+        .patch(`http://localhost:8700/user/${userStore}/password`, requestBody)
+        .then((res) => {
+          console.log(res);
+        });
+      setShow1(false);
+      alert("Password updated successfully!", window.location.reload());
+    }
+  };
 
   useEffect(() => {
     axios
@@ -82,47 +125,51 @@ const UserProfile = () => {
                           </span>
                         </p>
                       </MDBCardText>
+                      <Modal show={show} onHide={handleClose}>
+                        <Modal.Header closeButton>
+                          <Modal.Title>Update your name </Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                          <input
+                            type="text"
+                            placeholder="Enter your name"
+                            onChange={(e) => setUpdateName(e.target.value)}
+                          />
+                        </Modal.Body>
+                        <Modal.Footer>
+                          <button
+                            variant="secondary"
+                            onClick={handleClose}
+                            className={classes.updateBtn}
+                          >
+                            Close
+                          </button>
+                          <button
+                            variant="primary"
+                            onClick={changeName}
+                            className={classes.updateBtn}
+                          >
+                            Save Changes
+                          </button>
+                        </Modal.Footer>
+                      </Modal>
                     </MDBCol>
                   </MDBRow>
-                  <Modal show={show} onHide={handleClose}>
-                    <Modal.Header closeButton>
-                      <Modal.Title>Update your name </Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <input
-                        type="text"
-                        placeholder="Enter your name"
-                        onChange={(e) => setUpdateName(e.target.value)}
-                      />
-                    </Modal.Body>
-                    <Modal.Footer>
-                      <button
-                        variant="secondary"
-                        onClick={handleClose}
-                        className={classes.updateBtn}
-                      >
-                        Close
-                      </button>
-                      <button
-                        variant="primary"
-                        onClick={handleClose}
-                        className={classes.updateBtn}
-                      >
-                        Save Changes
-                      </button>
-                    </Modal.Footer>
-                  </Modal>
+
                   <hr />
                   <MDBRow>
                     <MDBCol sm="3">
                       <MDBCardText>Email</MDBCardText>
                     </MDBCol>
                     <MDBCol sm="9">
-                      <MDBCardText className="text-muted">
+                      <MDBCardText
+                        className="text-muted"
+                        style={{
+                          marginRight: "16rem",
+                          textDecoration: "none",
+                        }}
+                      >
                         {backData.email}{" "}
-                        <span style={{ marginLeft: "7.8rem" }}>
-                          <button className={classes.updateBtn}> Update</button>{" "}
-                        </span>
                       </MDBCardText>
                     </MDBCol>
                   </MDBRow>
@@ -133,7 +180,13 @@ const UserProfile = () => {
                       <MDBCardText>Mobile</MDBCardText>
                     </MDBCol>
                     <MDBCol sm="9">
-                      <MDBCardText className="text-muted">
+                      <MDBCardText
+                        className="text-muted"
+                        style={{
+                          marginRight: "18rem",
+                          textDecoration: "none",
+                        }}
+                      >
                         (+91) {backData.mobileNo}
                       </MDBCardText>
                     </MDBCol>
@@ -144,7 +197,13 @@ const UserProfile = () => {
                       <MDBCardText>Address</MDBCardText>
                     </MDBCol>
                     <MDBCol sm="9">
-                      <MDBCardText className="text-muted">
+                      <MDBCardText
+                        className="text-muted"
+                        style={{
+                          marginRight: "12rem",
+                          textDecoration: "none",
+                        }}
+                      >
                         <p>
                           {backData.address}, {backData.city}, {backData.state},{" "}
                           {backData.pinCode}
@@ -155,14 +214,64 @@ const UserProfile = () => {
                   <hr />
                   <MDBRow>
                     <MDBCol sm="3">
-                      <MDBCardText>Address</MDBCardText>
+                      <MDBCardText>Password</MDBCardText>
                     </MDBCol>
                     <MDBCol sm="9">
                       <MDBCardText className="text-muted">
-                        <p>{backData.password}</p>
+                        <p>
+                          ********
+                          <span
+                            className={classes.updateBtnU}
+                            id={classes.passwordSpan}
+                          >
+                            <button
+                              className={classes.updateBtn}
+                              onClick={handleShow1}
+                            >
+                              Update
+                            </button>
+                          </span>
+                        </p>
                       </MDBCardText>
                     </MDBCol>
                   </MDBRow>
+                  <Modal show={show1} onHide={handleClose1}>
+                    <Modal.Header closeButton>
+                      <Modal.Title>Update your Password </Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                      <label>New Password</label> <br />
+                      <input
+                        type="text"
+                        placeholder="Enter your new password"
+                        onChange={(e) => setUpdatePassword(e.target.value)}
+                      />
+                      <br />
+                      <br />
+                      <label>Confirm Password</label> <br />
+                      <input
+                        type="text"
+                        placeholder="Re-enter your new password"
+                        onChange={(e) => setConfirmPassword(e.target.value)}
+                      />
+                    </Modal.Body>
+                    <Modal.Footer>
+                      <button
+                        variant="secondary"
+                        onClick={handleClose1}
+                        className={classes.updateBtn}
+                      >
+                        Close
+                      </button>
+                      <button
+                        variant="primary"
+                        onClick={changePassword}
+                        className={classes.updateBtn}
+                      >
+                        Save Changes
+                      </button>
+                    </Modal.Footer>
+                  </Modal>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>
