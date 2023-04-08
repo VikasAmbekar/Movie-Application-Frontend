@@ -183,12 +183,14 @@ const UserSignUp = () => {
                   City
                 </label>{" "}
                 <br />
-                <Field
-                  type="text"
-                  name="city"
-                  className={classes.signupInput}
-                  autoComplete="off"
-                />{" "}
+                <Field name="city" as="select" className={classes.signupInput}>
+                  <option value="">Select City</option>
+                  <option value="Mumbai">Mumbai</option>
+                  <option value="Kolkata">Kolkata</option>
+                  <option value="Bangalore">Bangalore</option>
+                  <option value="Delhi">Delhi</option>
+                  <option value="Pune">Pune</option>
+                </Field>
                 <br />
                 <span className={classes.formerror}>
                   <ErrorMessage name="city" />
@@ -200,12 +202,13 @@ const UserSignUp = () => {
                   State
                 </label>
                 <br />
-                <Field
-                  type="text"
-                  name="state"
-                  className={classes.signupInput}
-                  autoComplete="off"
-                />{" "}
+                <Field name="state" as="select" className={classes.signupInput}>
+                  <option value="">Select State</option>
+                  <option value="Maharashtra">Maharashtra</option>
+                  <option value="West Bengal">West Bengal</option>
+                  <option value="Karnataka">Karnataka</option>
+                  <option value="Delhi">Delhi</option>
+                </Field>
                 <br />
                 <span className={classes.formerror}>
                   <ErrorMessage name="state" />

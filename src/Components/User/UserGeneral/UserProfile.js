@@ -12,8 +12,10 @@ import {
   MDBCardBody,
   MDBCardImage,
 } from "mdb-react-ui-kit";
+import { useNavigate } from "react-router-dom";
 
 const UserProfile = () => {
+  const navigate = useNavigate();
   let userStorage = localStorage.getItem("UserId");
   let userStore = JSON.parse(userStorage);
   const [backData, setBackData] = useState([]);
@@ -102,6 +104,12 @@ const UserProfile = () => {
                   </p>
                 </MDBCardBody>
               </MDBCard>
+              <button
+                className={classes.bigbtn}
+                onClick={() => navigate("/dashboard")}
+              >
+                Dashboard
+              </button>
             </MDBCol>
             <MDBCol lg="8">
               <MDBCard className="mb-4">

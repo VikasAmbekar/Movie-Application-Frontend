@@ -26,6 +26,7 @@ const UserHeader = () => {
           onChange={(e) => setCity(e.target.value)}
           className={classes.cityDrop}
         >
+          <option value="--">Select City</option>
           <option value="Mumbai">Mumbai</option>
 
           <option value="Delhi">Delhi</option>

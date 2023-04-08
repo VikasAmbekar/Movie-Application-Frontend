@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Dropdown } from "react-bootstrap";
 import classes from "./BookTicket.module.css";
 import { useLocation, useNavigate } from "react-router-dom";
 import UserFooter from "./UserFooter";
@@ -10,26 +10,27 @@ const BookTicket = () => {
   let navigate = useNavigate();
   const [theaterById, setTheaterById] = useState([]);
   const [movieById, setMovieById] = useState([]);
+  const [time, setTime] = useState("");
 
   const location = useLocation();
 
   const theaterId = useState(location.state.id);
-  console.log(theaterId);
 
   const movieId = useState(location.state.mid);
-  console.log(movieId);
+
+  // const handleCheckBox = (e) => {
+  //   setIsChecked(e.target.checked);
+  // };
 
   async function theaterData() {
     await axios
       .get(`http://localhost:8700/theater/${theaterId[0]}`)
       .then((res) => {
         setTheaterById(res.data);
-        console.log(res.data);
       });
 
     await axios.get(`http://localhost:8700/movie/${movieId[0]}`).then((res) => {
       setMovieById(res.data);
-      console.log(res.data);
     });
   }
 
@@ -52,13 +53,37 @@ const BookTicket = () => {
           <img src={movieById.movieImage} width="350px" height="250px" />
           <p></p>
         </div>
-        <div>
-          <Button className={classes.bookTicketBtn} variant="success">
-            Confirm Tickets
+        <div className={classes.timeSelect}>
+          <select
+            className={classes.select}
+            onChange={(e) => setTime(e.target.value)}
+          >
+            <option>Show Timings</option>
+            <option value="10:00AM">10:00AM</option>
+            <option value="12:00PM">12:00PM</option>
+            <option value="03:00PM">03:00PM</option>
+            <option value="09:00PM">09:00PM</option>
+          </select>
+          <Button
+            variant="primary"
+            className={classes.selectSeats}
+            onClick={() =>
+              navigate("/select-seat", {
+                state: {
+                  theaterId1: theaterId[0],
+                  mId1: movieId[0],
+                  time1: time,
+                },
+              })
+            }
+          >
+            Select Seats
           </Button>
+        </div>
+        <div>
           <Button
             className={classes.bookTicketBtn}
-            onClick={() => navigate("/book-ticket")}
+            onClick={() => navigate("/dashboard")}
             variant="danger"
           >
             Cancel
