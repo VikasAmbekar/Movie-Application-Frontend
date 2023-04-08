@@ -26,4 +26,17 @@
   margin-right: 12px;
 }
 
+.timeSelect{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+}
+
+.selectSeats{
+  margin-left: 10px;
+  padding: 5px;
+}
+
 

@@ -9,8 +9,9 @@ import BookTicket from "./Components/User/UserGeneral/BookTicket";
 import AdminMovieOps from "./Components/Admin/AdminMovieOps";
 import AdminTheaterOps from "./Components/Admin/AdminTheaterOps";
 import UserProfile from "./Components/User/UserGeneral/UserProfile";
-import SeatBooker from "./Components/User/UserGeneral/SeatBooker";
+
 import SeatPage from "./Components/User/UserGeneral/SeatPage";
+import PaymentPage from "./Components/User/UserGeneral/PaymentPage";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
           <Route path="/admin-theater-ops" element={<AdminTheaterOps />} />
           <Route path="/my-profile" element={<UserProfile />} />
           <Route path="/select-seat" element={<SeatPage />} />
-          <Route path="seat-booker" element={<SeatBooker />} />
+          <Route path="/payment-page" element={<PaymentPage />} />
         </Routes>
       </div>
       ;

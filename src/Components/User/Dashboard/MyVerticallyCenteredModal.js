@@ -9,7 +9,6 @@ const MyVerticallyCenteredModal = (props) => {
   const [theater, setTheater] = useState([]);
 
   let city = localStorage.getItem("city");
-  console.log(city);
 
   // async function getTheaterByCity() {
   //   // let movieList = theater.map((list) => {
@@ -40,12 +39,11 @@ const MyVerticallyCenteredModal = (props) => {
 
   useEffect(() => {
     const movieId = props.movieId;
-    console.log(props.movieId);
+
     axios
       .get(`http://localhost:8700/theater/${city}/${movieId}`)
       .then((res) => {
         setTheater(res.data);
-        console.log(res.data);
       });
   }, []);
 

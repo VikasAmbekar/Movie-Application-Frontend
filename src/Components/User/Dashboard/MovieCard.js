@@ -19,12 +19,11 @@ const MovieCard = (props) => {
     setShowTheaterModal(true);
     const movieId = props.movieData["id"];
     const city = localStorage.getItem("city");
-    console.log(movieId);
+
     axios
       .get(`http://localhost:8700/theater/${city}/${movieId}`)
       .then((res) => {
         setTheater(res.data);
-        console.log(res.data);
       });
   };
 
