@@ -1,0 +1,13 @@
+.btnAdmin{
+    margin:0.5rem;
+}
+
+.adminCards{
+    margin: 0.4rem;
+    width: 20%;
+}
+
+.mainCard{
+    display: flex;
+    text-align: center;
+}

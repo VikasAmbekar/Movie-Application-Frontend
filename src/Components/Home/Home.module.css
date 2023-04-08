@@ -1,0 +1,97 @@
+.headerTop {
+  width: 100%;
+  height: 4rem;
+  background-image: linear-gradient(
+    55deg,
+    rgba(157, 34, 53, 0.9),
+    rgba(0, 71, 171, 0.9)
+  );
+  position: fixed;
+  top: 0;
+  display: flex;
+}
+
+.logo {
+  padding: 0.7rem;
+  width: 85%;
+  text-decoration: none;
+}
+
+.logolink {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  left: 0;
+  margin-right: 55rem;
+  cursor: pointer;
+}
+
+.maininfo {
+  display: flex;
+}
+
+.adminlogin {
+  margin-top: 0.6rem;
+  width: 15%;
+  align-items: right;
+  justify-content: right;
+}
+
+.adminbtn {
+  margin-left: 15px;
+  background-color: rgba(157, 34, 53, 0.8);
+  border-radius: 10px;
+  border: 1px solid rgb(0, 71, 171);
+  color: white;
+  transition: 0.3s;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.bottom {
+  background-color: gray;
+  width: 100%;
+  height: 2.5rem;
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 1rem;
+  color: white;
+  padding-top: 0.5rem;
+}
+
+.carousel {
+  width: 60rem;
+  height: 21rem;
+  /* border: 2px solid black; */
+  /* border-radius: 1rem; */
+  left: 0;
+  margin-top: 4.5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 1rem;
+  border-radius: 0.5px;
+}
+
+.carouselImage {
+}
+
+.loginForm {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* height: 70vh;
+  width: 40%; */
+
+  /* border: 2px solid red; */
+  margin-top: 5rem;
+  /* margin-left: 0.3rem;
+  margin-right: 0.5rem; */
+}
+
+.imageSlide {
+  border-radius: 6px;
+}

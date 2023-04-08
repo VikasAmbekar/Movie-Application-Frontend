@@ -1,0 +1,45 @@
+.loginForm {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 80vh;
+  margin-top: 5rem;
+}
+
+.headerTop {
+  width: 100%;
+  height: 4rem;
+  background-color: brown;
+  position: fixed;
+  top: 0;
+  display: flex;
+}
+
+.adminForm {
+  /* background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fusercontent2.hubstatic.com%2F9071389_f520.jpg&f=1&nofb=1&ipt=3842eb93e158937ae1c37b5b73ccdfa8305ec22371e03924928055c13a1428f3&ipo=images"); */
+  width: 100%;
+  height: 90vh;
+}
+
+.logo {
+  padding: 1.3rem;
+  width: 85%;
+  text-decoration: none;
+}
+
+.logolink {
+  text-decoration: none;
+  color: white;
+}
+
+.bottom {
+  background-color: gray;
+  width: 100%;
+  height: 2rem;
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 1rem;
+}

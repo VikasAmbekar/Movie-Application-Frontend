@@ -1,0 +1,29 @@
+.bookTicketBtn {
+  margin: 0.5rem;
+}
+
+.bookTicketBody {
+  margin: 0.35rem;
+  padding: 0.2rem;
+}
+
+.backImag {
+  z-index: -8;
+  
+}
+
+.mainBack {
+  z-index: 5;
+
+}
+.row1 {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.row1 input{
+  padding: 20px;
+  margin-right: 12px;
+}
+
+

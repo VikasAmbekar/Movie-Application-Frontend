@@ -1,0 +1,148 @@
+.headerTop {
+  width: 100%;
+  height: 4rem;
+  background-color: #13363d;
+  position: fixed;
+  top: 0;
+  display: flex;
+}
+
+.logo {
+  padding: 1.3rem;
+  width: 85%;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.logolink {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  left: 0;
+  margin-right: 55rem;
+  cursor: pointer;
+}
+
+.maininfo {
+  margin-top: 5rem;
+  display: flex;
+}
+
+.adminlogin {
+  margin-top: 1.3rem;
+  width: 15%;
+  align-items: right;
+  justify-content: right;
+}
+
+.adminbtn {
+  padding: 0.4rem;
+  border: none;
+  border-radius: 3px;
+  background-color: #c5122d;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bottom {
+  background-color: gray;
+  width: 100%;
+  height: 3rem;
+  /* position: fixed; */
+  /* position: absolute; */
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  margin-top: 1rem;
+}
+
+.bottomText {
+  padding-bottom: 1rem;
+  padding-top: 13px;
+}
+
+.carousel {
+  width: 60%;
+  height: 70vh;
+  border: 2px solid black;
+  left: 0;
+  margin-top: 5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.loginForm {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 70vh;
+  width: 40%;
+  right: 0;
+  border: 2px solid red;
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
+.SignupForm {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+  margin-left: 250px;
+  /* background-color: #f0f0f0; */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.SignupLabel {
+  /* font-size: 18px; */
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.signupInput {
+  padding: 0.5rem;
+  width: 25rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  /* margin-bottom: 10px;
+  font-size: 16px;
+  padding: 20px;
+  margin: 0 20px 0 20px; */
+}
+
+.signupButtom {
+  background-color: #c5122d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 30%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.SignUpLogin {
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.SignUpLoginp {
+  font-weight: 500;
+}
+
+.formerror {
+  color: red;
+}
