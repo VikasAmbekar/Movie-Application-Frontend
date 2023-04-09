@@ -1,0 +1,61 @@
+.cardMainDiv {
+  border: 1px solid black;
+  margin-top: 1.5rem;
+  width: 30rem;
+  margin-left: 5rem;
+}
+.mapFlex {
+  display: flex;
+}
+
+.cardMainDivTable {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 23%;
+}
+
+.cardTitle {
+  margin-top: 1rem;
+}
+
+.tableHeader {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 3px;
+}
+
+.tableData {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 3px;
+}
+
+.cardButton {
+  color: white;
+  border-radius: 4px;
+  background-color: rgba(157, 34, 53, 1);
+  border: none;
+  padding: 3px;
+  height: 3rem;
+  margin-top: 2px;
+  width: 100%;
+  font-size: large;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .cardMainDiv,
+  .cardMainDiv * {
+    visibility: visible;
+  }
+  .cardMainDiv {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

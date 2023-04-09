@@ -4,7 +4,7 @@ import classes from "./UserFooter.module.css";
 
 const UserFooter = () => {
   return (
-    <div>
+    <div className={classes.footerDiv}>
       <MDBFooter
         className="text-center text-white"
         style={{ backgroundColor: "#f1f1f1" }}
@@ -17,9 +17,9 @@ const UserFooter = () => {
             marginTop: "3rem",
           }}
         >
-          © 2023 Copyright:
+          © 2023 Copyright
           <a className="text-dark" href="#">
-            Movie App
+            MovieMate
           </a>
         </div>
       </MDBFooter>

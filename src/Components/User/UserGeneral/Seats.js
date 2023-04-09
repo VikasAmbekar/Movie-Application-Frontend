@@ -133,6 +133,7 @@ const Seats = (props) => {
       });
 
     alert("Booking successful...");
+    navigate("/my-booking");
   };
 
   //
