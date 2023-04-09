@@ -43,7 +43,9 @@ const UserHeader = () => {
           id="basic-nav-dropdown"
           className={classes.userDrop}
         >
-          <NavDropdown.Item>My Bookings</NavDropdown.Item>
+          <NavDropdown.Item onClick={() => navigate("/my-booking")}>
+            My Bookings
+          </NavDropdown.Item>
           <NavDropdown.Item onClick={() => navigate("/my-profile")}>
             My Profile
           </NavDropdown.Item>

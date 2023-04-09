@@ -37,7 +37,12 @@ function SeatPage(props) {
   return (
     <div>
       <UserHeader />
-      <Seats data={theaterSeat} />
+      <Seats
+        data={theaterSeat}
+        theaterID={theaterId[0]}
+        movieID={movieId[0]}
+        Time={time[0]}
+      />
       <UserFooter />
     </div>
   );
