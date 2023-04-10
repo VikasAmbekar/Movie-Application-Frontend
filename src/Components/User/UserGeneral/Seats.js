@@ -98,7 +98,7 @@ const Seats = (props) => {
   let movieNameData = movieName.movieTitle;
   // console.log(movieNameData);
 
-  let theaterNameData = theaterName.name;
+  let theaterNameData = theaterName.name + "," + theaterName.city;
   // console.log(theaterNameData);
 
   const bookSeat = () => {

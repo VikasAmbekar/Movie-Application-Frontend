@@ -2,4 +2,5 @@
   bottom: 0;
   position: sticky;
   z-index: 5;
+  height: 0.5rem;
 }

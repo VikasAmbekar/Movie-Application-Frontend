@@ -7,11 +7,8 @@ import {
   MDBCard,
   MDBCardBody,
   MDBCardTitle,
-  MDBCardText,
   MDBCardFooter,
-  MDBBtn,
 } from "mdb-react-ui-kit";
-import { Button } from "react-bootstrap";
 
 const MyBooking = () => {
   let mobileNumber = JSON.parse(localStorage.getItem("UserId"));
@@ -74,6 +71,8 @@ const MyBooking = () => {
                         <td className={classes.tableData}>₹{ele.totalCost}</td>
                       </tr>
                     </table>
+                    <br />
+                    <MDBCardFooter>Ref: {ele.id}</MDBCardFooter>
                     <br />
                     <button
                       id={classes.btnId}

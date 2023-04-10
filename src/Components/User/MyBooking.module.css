@@ -2,17 +2,19 @@
   border: 1px solid black;
   margin-top: 1.5rem;
   width: 30rem;
-  margin-left: 5rem;
+  /* margin-left: 3rem; */
+  margin: 10px;
 }
 .mapFlex {
   display: flex;
+  justify-content: space-around;
 }
 
 .cardMainDivTable {
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-left: 23%;
+  /* margin-left: 23%; */
 }
 
 .cardTitle {
