@@ -41,9 +41,9 @@ const Home = () => {
         <div className={classes.adminlogin}>
           <button
             className={classes.adminbtn}
-            onClick={() => navigate("/admin-login")}
+            onClick={() => navigate("/user-signup")}
           >
-            Admin Login
+            User SignUp
           </button>
         </div>
       </header>

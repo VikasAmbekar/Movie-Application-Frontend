@@ -22,18 +22,17 @@ const UserLogin = () => {
 
     const found = backData.find((element) => element.mobileNo == mobile);
     if (found == null) {
-      alert("Login failed", window.location.reload());
+      alert("You don't have acount, proceed to sign up");
+      navigate("/user-signup");
     } else {
-      if (found.mobileNo == mobile && found.password == password) {
-        console.log("Login Success");
+      if (found.mobileNo == mobile && found.password != password) {
+        // console.log("Login Success");
+        alert("Password is not correct!");
+      } else if (found.mobileNo == mobile && found.password == password) {
         alert("Login successful!");
         navigate("/dashboard");
         localStorage.setItem("UserId", JSON.stringify(found.mobileNo));
         localStorage.setItem("UserName", JSON.stringify(found.name));
-      } else if (found.password == password) {
-        alert("Password is not proper", window.location.reload());
-      } else {
-        alert("Login couldn't found", window.location.reload());
       }
     }
   };

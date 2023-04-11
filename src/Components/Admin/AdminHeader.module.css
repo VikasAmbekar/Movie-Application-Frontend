@@ -9,6 +9,10 @@
   top: 0;
 }
 
+.mainNav1 {
+  width: 180%;
+}
+
 .mainLink {
   text-decoration: none;
   font-size: x-large;

@@ -1,14 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import classes from "./Admin.module.css";
-import UserHeader from "../User/UserGeneral/UserHeader";
+import AdminHeader from "./AdminHeader";
 
 const Admin = () => {
   let navigate = useNavigate();
   return (
     <>
       <header>
-        <UserHeader />
+        <AdminHeader />
       </header>
 
       <div className={classes.loginForm}>

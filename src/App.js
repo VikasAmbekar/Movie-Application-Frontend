@@ -30,7 +30,6 @@ function App() {
           <Route path="/my-booking" element={<MyBooking />} />
         </Routes>
       </div>
-      ;
     </>
   );
 }
