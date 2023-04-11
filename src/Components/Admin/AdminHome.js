@@ -3,16 +3,11 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import classes from "./AdminHome.module.css";
 import { useNavigate } from "react-router-dom";
-import {
-  MDBCard,
-  MDBCardTitle,
-  MDBCardOverlay,
-  MDBCardImage,
-} from "mdb-react-ui-kit";
 import AddMoviePopUp from "./AddMoviePopUp";
 import AddTheaterPopUp from "./AddTheaterPopUp";
-import UserFooter from "../User/UserGeneral/UserFooter";
-import UserHeader from "../User/UserGeneral/UserHeader";
+
+import AdminHeader from "./AdminHeader";
+import AdminFooter from "./AdminFooter";
 
 const AdminHome = () => {
   let navigate = useNavigate();
@@ -21,7 +16,7 @@ const AdminHome = () => {
 
   return (
     <>
-      <UserHeader />
+      <AdminHeader />
       <br />
       <div className={classes.mainCard}>
         <Card className={classes.adminCards}>
@@ -76,7 +71,9 @@ const AdminHome = () => {
           </Card.Body>
         </Card>
       </div>
-      <UserFooter />
+      <div className={classes.adminFooter}>
+        <AdminFooter />
+      </div>
     </>
   );
 };

@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import UpdateMoviePopUp from "./UpdateMoviePopUp";
 import UserFooter from "../User/UserGeneral/UserFooter";
+import AdminHeader from "./AdminHeader";
 
 const AdminMovieOps = () => {
   let navigate = useNavigate();
@@ -28,7 +29,7 @@ const AdminMovieOps = () => {
 
   return (
     <>
-      <AdminNav />
+      <AdminHeader />
       <div>
         <table className={classes.movieTable}>
           <thead>

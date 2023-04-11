@@ -101,6 +101,10 @@ const Seats = (props) => {
   let theaterNameData = theaterName.name + "," + theaterName.city;
   // console.log(theaterNameData);
 
+  let userMail1 = localStorage.getItem("UserMail");
+  let userMail = JSON.parse(userMail1);
+  // console.log(userMail);
+
   const bookSeat = () => {
     let reqBody = {
       seats: seatArray,
@@ -123,8 +127,9 @@ const Seats = (props) => {
       showTimings: timeData,
       bookingDate: date,
       totalCost: movieticket,
+      email: userMail,
     };
-    // console.log(reqBody2);
+    console.log(reqBody2);
 
     axios
       .post("http://localhost:8700/booking-details/", reqBody2)

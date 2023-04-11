@@ -6,6 +6,7 @@ import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 import UpdateTheaterPopUp from "./UpdateTheaterPopUp";
 import UserFooter from "../User/UserGeneral/UserFooter";
+import AdminHeader from "./AdminHeader";
 
 const AdminTheaterOps = () => {
   let navigate = useNavigate();
@@ -28,7 +29,7 @@ const AdminTheaterOps = () => {
 
   return (
     <>
-      <AdminNav />
+      <AdminHeader />
 
       <div>
         <table className={classes.theaterTable}>

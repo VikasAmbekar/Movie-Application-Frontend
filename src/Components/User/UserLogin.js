@@ -33,6 +33,7 @@ const UserLogin = () => {
         navigate("/dashboard");
         localStorage.setItem("UserId", JSON.stringify(found.mobileNo));
         localStorage.setItem("UserName", JSON.stringify(found.name));
+        localStorage.setItem("UserMail", JSON.stringify(found.email));
       }
     }
   };

@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./UserHeader.module.css";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link, useNavigate } from "react-router-dom";
+import { logOut } from "../CheckUserLogin";
 
 const UserHeader = () => {
   let navigate = useNavigate();
@@ -51,7 +52,13 @@ const UserHeader = () => {
           </NavDropdown.Item>
         </NavDropdown>
 
-        <button className={classes.logOutBtn} onClick={() => navigate("/")}>
+        <button
+          className={classes.logOutBtn}
+          onClick={() => {
+            navigate("/");
+            logOut();
+          }}
+        >
           Log-Out
         </button>
       </div>
