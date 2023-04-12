@@ -26,11 +26,13 @@ const Seats = (props) => {
   //
   const [seatList, setSeatList] = useState([]);
   const selectSeat = (r, c) => {
-    selectedSeats[r][c] = 1;
-    // seatNumber = [`${r}-${c}`];
-    // console.log(seatNumber);
-    setSeatList([...seatList, `${r}-${c}`]);
-    // console.log(seatList);
+    if (seatArray[r][c] === 0) {
+      selectedSeats[r][c] = 1;
+
+      setSeatList([...seatList, `${r}-${c}`]);
+    } else if (seatArray[r][c] === 1) {
+      console.log("Seat already booked!!");
+    }
   };
 
   // axios data by id
@@ -106,39 +108,44 @@ const Seats = (props) => {
   // console.log(userMail);
 
   const bookSeat = () => {
-    let reqBody = {
-      seats: seatArray,
-    };
+    if (seatListDataLenght === 0) {
+      alert("Please select the seats!");
+      handleClose();
+    } else {
+      let reqBody = {
+        seats: seatArray,
+      };
 
-    axios
-      .patch(`http://localhost:8700/seats/${theaterSeatId}`, reqBody)
-      .then((res) => {
-        // alert("Proceeding to Payment...");
-        // navigate("/payment-page");
-      });
+      axios
+        .patch(`http://localhost:8700/seats/${theaterSeatId}`, reqBody)
+        .then((res) => {
+          // alert("Proceeding to Payment...");
+          // navigate("/payment-page");
+        });
 
-    let reqBody2 = {
-      customerName: customerName,
-      customerMobNo: customerMobile,
-      theaterName: theaterNameData,
-      movieName: movieNameData,
-      seatsBooked: seatListData,
-      numberSeats: seatListDataLenght,
-      showTimings: timeData,
-      bookingDate: date,
-      totalCost: movieticket,
-      email: userMail,
-    };
-    console.log(reqBody2);
+      let reqBody2 = {
+        customerName: customerName,
+        customerMobNo: customerMobile,
+        theaterName: theaterNameData,
+        movieName: movieNameData,
+        seatsBooked: seatListData,
+        numberSeats: seatListDataLenght,
+        showTimings: timeData,
+        bookingDate: date,
+        totalCost: movieticket,
+        email: userMail,
+      };
+      console.log(reqBody2);
 
-    axios
-      .post("http://localhost:8700/booking-details/", reqBody2)
-      .then((res) => {
-        // console.log(res);
-      });
+      axios
+        .post("http://localhost:8700/booking-details/", reqBody2)
+        .then((res) => {
+          // console.log(res);
+        });
 
-    alert("Booking successful...");
-    navigate("/my-booking");
+      alert("Booking successful...");
+      navigate("/my-booking");
+    }
   };
 
   //
@@ -148,16 +155,11 @@ const Seats = (props) => {
       <ul className={classes.showcase}>
         <li>
           <div className={classes.seat}></div>
-          <small>N/A</small>
-        </li>
-
-        <li>
-          <div className={classes.seatselected}></div>
-          <small>Selected</small>
+          <small>Available Seats</small>
         </li>
         <li>
           <div className={classes.seatoccupied}></div>
-          <small>Occupied</small>
+          <small>Occupied Seats</small>
         </li>
       </ul>
       <div className={classes.container}>
@@ -188,6 +190,14 @@ const Seats = (props) => {
         >
           Confirm Seats
         </Button>
+        <Button
+          variant="warning"
+          className={classes.confirmTicket}
+          onClick={() => window.location.reload()}
+        >
+          Clear Seats
+        </Button>
+
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Payment details </Modal.Title>

@@ -9,7 +9,7 @@ import UserFooter from "../UserGeneral/UserFooter";
 function UserDashboard(props) {
   const [movies, setMovies] = useState([]);
   const [movieName, setMovieName] = useState("");
-  // const [filterMovie, setFilterMovie] = useState([]);
+  const [filterMovie, setFilterMovie] = useState([]);
 
   async function getMovies() {
     await axios
@@ -27,6 +27,14 @@ function UserDashboard(props) {
   useEffect(() => {
     getMovies();
   }, []);
+
+  useEffect(() => {
+    const result = movies.filter((mov) => {
+      return mov.movieTitle.toLowerCase().match(movieName.toLowerCase());
+    });
+    setFilterMovie(result);
+  }, [movieName, movies]);
+
   if (movies === null) {
     return <div></div>;
   }
@@ -44,7 +52,7 @@ function UserDashboard(props) {
       />
 
       <div style={{ display: "flex", flexWrap: "wrap" }}>
-        {movies.map((movie) => (
+        {filterMovie.map((movie) => (
           <MovieCard movieData={movie} />
         ))}
       </div>

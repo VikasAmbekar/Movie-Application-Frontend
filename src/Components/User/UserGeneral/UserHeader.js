@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./UserHeader.module.css";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { logOut } from "../CheckUserLogin";
 
 const UserHeader = () => {

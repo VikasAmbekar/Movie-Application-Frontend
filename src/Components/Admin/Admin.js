@@ -12,7 +12,7 @@ const Admin = () => {
   useEffect(() => {
     axios.get("http://localhost:8710/admin/").then((res) => {
       setAdminData(res.data);
-      console.log(res.data);
+      // console.log(res.data);
     });
   }, []);
 

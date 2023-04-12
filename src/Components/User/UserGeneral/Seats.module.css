@@ -8,7 +8,7 @@
   color: black;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 .seatMain {
@@ -16,7 +16,7 @@
 }
 
 .seat {
-  background-color: blueviolet;
+  background-color: blue;
   height: 22px;
   width: 25px;
   margin: 5px;
@@ -40,7 +40,7 @@
 }
 
 .seatoccupied {
-  background-color: brown;
+  background-color: red;
   height: 22px;
   width: 25px;
   margin: 3px;

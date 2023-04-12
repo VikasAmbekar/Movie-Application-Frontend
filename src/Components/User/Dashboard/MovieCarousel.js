@@ -16,14 +16,12 @@ const MovieCarousel = (props) => {
                 src={movie.movieImage}
                 alt="Second slide"
                 height="450rem"
+                style={{
+                  borderRadius: "7px",
+                }}
               />
               <Carousel.Caption>
                 <h3>{movie.movieTitle}</h3>
-                <Button onClick={() => setModel(true)}>Book Now</Button>
-                <MyVerticallyCenteredModal
-                  show={model}
-                  onHide={() => setModel(false)}
-                />
               </Carousel.Caption>
             </Carousel.Item>
           );

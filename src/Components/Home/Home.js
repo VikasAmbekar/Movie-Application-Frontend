@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import classes from "./Home.module.css";
 import { useNavigate } from "react-router-dom";
-import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
-import { Button, Carousel } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import UserLogin from "../User/UserLogin";
 import axios from "axios";
 
