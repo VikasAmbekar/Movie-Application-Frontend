@@ -15,13 +15,15 @@ const UserLogin = () => {
     event.preventDefault();
 
     // Perform form validation
-    if (mobile === "" || password === "") {
-      setErrorMessage("Please enter mobile number and password");
-      return;
-    }
+    // if (mobile === "" || password === "") {
+    //   setErrorMessage("Please enter mobile number and password");
+    //   return;
+    // }
 
     const found = backData.find((element) => element.mobileNo == mobile);
-    if (found == null) {
+    if (mobile.length > 10 || mobile.length < 10) {
+      alert("Mobile number must be 10 digit long");
+    } else if (found == null) {
       alert("You don't have acount, proceed to sign up");
       navigate("/user-signup");
     } else {
@@ -39,10 +41,16 @@ const UserLogin = () => {
   };
 
   useEffect(() => {
-    axios
-      .get("http://localhost:8700/user/")
-      .then((response) => setBackData(response.data));
-    console.log(backData);
+    async function fetchData() {
+      try {
+        const response = await axios.get("http://localhost:8700/user/");
+        setBackData(response.data);
+        // console.log(response);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+    fetchData();
   }, []);
 
   return (
@@ -66,7 +74,6 @@ const UserLogin = () => {
             autoComplete="off"
           />
         </div>
-
         <div>
           <label htmlFor="password">Password</label> <br />
           <input
@@ -83,8 +90,7 @@ const UserLogin = () => {
         <button type="submit" className={classes.loginButtom}>
           Login
         </button>
-        <br />
-        {errorMessage && <div className="error">{errorMessage}</div>}
+
         <br />
         <p className={classes.loginSignUpP}>
           Don't have account click here&nbsp;

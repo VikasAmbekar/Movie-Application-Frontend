@@ -101,6 +101,7 @@ const UserSignUp = () => {
                 <Field
                   type="text"
                   name="name"
+                  placeholder="Enter your name"
                   className={classes.signupInput}
                   autoComplete="off"
                 />{" "}
@@ -118,6 +119,7 @@ const UserSignUp = () => {
                 <Field
                   type="text"
                   name="mobileNo"
+                  placeholder="Enter mobile number"
                   className={classes.signupInput}
                   autoComplete="off"
                 />{" "}
@@ -152,6 +154,7 @@ const UserSignUp = () => {
                 <Field
                   type="password"
                   name="password"
+                  placeholder="Enter Password"
                   className={classes.signupInput}
                   autoComplete="off"
                 />{" "}
@@ -255,6 +258,7 @@ const UserSignUp = () => {
                 disabled={!isValid || isSubmitting}
                 className={classes.signupButtom}
                 autoComplete="off"
+                title="SignUp"
               >
                 {isSubmitting ? "Submitting..." : "Sign Up"}
               </button>

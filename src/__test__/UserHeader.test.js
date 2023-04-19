@@ -1,27 +1,47 @@
-import { shallow } from "enzyme";
-import Enzyme from "enzyme";
-import Adapter from "@cfaester/enzyme-adapter-react-18";
-Enzyme.configure({ adapter: new Adapter() });
-jest.mock("react-router-dom");
-jest.mock("axios");
+import { render, screen } from "@testing-library/react";
 import UserHeader from "../Components/User/UserGeneral/UserHeader";
+import { BrowserRouter } from "react-router-dom";
 
-describe("Userheader component", () => {
-  it("renders a header with logo", () => {
-    let wrapper = shallow(<UserHeader />);
-    expect(wrapper.exists()).toBe(true);
-    expect(wrapper.exists(".mainLink")).toEqual(true);
-  });
+const MockUserHeader = () => {
+  return (
+    <BrowserRouter>
+      <UserHeader />
+    </BrowserRouter>
+  );
+};
 
-  it("Testing a tag ", () => {
-    let wrapper = shallow(<UserHeader />);
-    expect(wrapper.exists()).toBe(true);
-    expect(wrapper.find(".mainLink").text()).toEqual("MovieMate");
-  });
+test("user header test 1", () => {
+  render(<MockUserHeader />);
+  const text = screen.getByText(/moviemate/i);
+  expect(text).toBeInTheDocument;
+});
 
-  it("Testing tag elements", () => {
-    let wrapper = shallow(<UserHeader />);
-    expect(wrapper.exists()).toBe(true);
-    expect(wrapper.find(".logOutBtn").text()).toEqual("Log-Out");
-  });
+test("name render test", () => {
+  render(<MockUserHeader />);
+  const name = screen.getByText(/hi, null/i);
+  expect(name).toBeInTheDocument;
+});
+
+// test("to contain html test", () => {
+//   render(<MockUserHeader />);
+//   const text = screen.getByText(/city/i);
+//   expect(text).toContainHTML("select");
+// });
+
+test("user header test 2", () => {
+  render(<MockUserHeader />);
+  const text = screen.getByText(/mumbai/i);
+  expect(text).toBeInTheDocument;
+});
+
+// test("user header test 3", () => {
+//   render(<MockUserHeader />);
+//   const text = screen.queryByText(/crops/i);
+//   expect(text).not.toBeInTheDocument;
+// });
+
+test("user header test 4", () => {
+  render(<MockUserHeader />);
+  const text = screen.getAllByRole("option");
+  expect(text.length).toBe(6);
 });
