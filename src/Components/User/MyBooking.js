@@ -15,13 +15,18 @@ const MyBooking = () => {
   const [customerData, setCustomerData] = useState([]);
 
   useEffect(() => {
-    axios
-      .get(`http://localhost:8700/booking-details/mobile/${mobileNumber}`)
-      .then((res) => {
-        // console.log(res.data);
-        setCustomerData(res.data);
-      });
+    const fetchData = async () => {
+      try {
+        const responseData = await axios.get(`http://localhost:8700/booking-details/mobile/${mobileNumber}`);
+        setCustomerData(responseData.data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    
+    fetchData();
   }, []);
+  
 
   const printTicket = () => {
     window.print();

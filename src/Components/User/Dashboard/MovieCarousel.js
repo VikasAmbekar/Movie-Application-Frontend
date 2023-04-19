@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Button, Carousel } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import classes from "./MovieCarousel.module.css";
-import MyVerticallyCenteredModal from "./MyVerticallyCenteredModal";
+
 
 const MovieCarousel = (props) => {
   const [model, setModel] = useState(false);

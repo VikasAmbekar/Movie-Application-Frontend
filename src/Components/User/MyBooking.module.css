@@ -5,10 +5,14 @@
   /* margin-left: 3rem; */
   margin: 10px;
 }
+
 .mapFlex {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  /* flex-direction: row; */
+  /* flex-grow: initial; */
 }
+
 
 .cardMainDivTable {
   align-items: center;
