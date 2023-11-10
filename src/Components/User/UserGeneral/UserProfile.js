@@ -75,11 +75,16 @@ const UserProfile = () => {
   };
 
   useEffect(() => {
-    axios
-      .get(`http://localhost:8700/user/${userStore}`)
-      .then((response) => setBackData(response.data));
-    console.log(backData);
+    const fetchData = async () => {
+      const response = await axios.get(`http://localhost:8700/user/${userStore}`);
+      setBackData(response.data);
+    };
+    fetchData().catch((error) => {
+      console.error(error);
+      // Handle the error here by setting an error state variable or displaying an error message
+    });
   }, []);
+  
 
   return (
     <>

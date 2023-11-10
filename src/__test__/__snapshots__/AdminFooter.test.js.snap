@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminFooter test case class test 1`] = `ShallowWrapper {}`;
+
+exports[`AdminFooter test case renders correctly 1`] = `
+<div>
+  <div
+    class="footerDiv"
+  >
+    <footer
+      class="text-center text-white"
+      style="background-color: rgb(241, 241, 241);"
+    >
+      <div
+        class="text-center text-dark p-3"
+        style="background-color: rgba(0, 0, 0, 0.2); bottom: 0px; margin-top: 3rem;"
+      >
+        © 2023 Copyright
+        <a
+          class="text-dark"
+          href="#"
+        >
+          MovieMate
+        </a>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

@@ -1,18 +1,20 @@
-import { shallow } from "enzyme";
-import Enzyme from "enzyme";
-import Adapter from "@cfaester/enzyme-adapter-react-18";
+import React from "react";
+import { render } from "@testing-library/react";
 import AdminFooter from "../Components/Admin/AdminFooter";
-Enzyme.configure({ adapter: new Adapter() });
-jest.mock("react-router-dom");
 
 describe("AdminFooter test case", () => {
-  it("class test", () => {
-    let wrapper = shallow(<AdminFooter />);
-    expect(wrapper.exists(".footerDiv")).toEqual(true);
-  });
+  it("renders correctly", () => {
+    const { getByText, container } = render(<AdminFooter />);
 
-  it("Testing tag elements", () => {
-    let wrapper = shallow(<AdminFooter />);
-    expect(wrapper.find("a").text()).toEqual("MovieMate");
+    // Snapshot test
+    expect(container).toMatchSnapshot();
+
+    // Check if the footerDiv exists
+    const footerDiv = container.querySelector(".footerDiv");
+    expect(footerDiv).toBeTruthy();
+
+    // Check if the text "MovieMate" exists within an anchor tag
+    const movieMateLink = getByText("MovieMate");
+    expect(movieMateLink).toBeTruthy();
   });
 });
