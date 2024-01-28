@@ -22,7 +22,7 @@ const Home = () => {
   }
 
   useEffect(() => {
-    getMovies();
+    getMovies().then(r => r.data);
   }, []);
 
   if (movies === null) {

@@ -33,7 +33,7 @@ const MovieCard = (props) => {
   return (
     <>
       <div className={classes.movieCard}>
-        <MDBCard background="dark" className="text-white">
+        <MDBCard background={"dark"} className="text-white">
           <MDBCardImage
             src={props.movieData["movieImage"]}
             style={{ height: "250px" }}
