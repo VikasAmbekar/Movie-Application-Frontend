@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component matches snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
