@@ -1,7 +1,7 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import classes from "./Home.module.css";
-import {useNavigate} from "react-router-dom";
-import {Carousel} from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
+import { Carousel } from "react-bootstrap";
 import UserLogin from "../User/UserLogin";
 import axios from "axios";
 
@@ -72,7 +72,7 @@ const Home = () => {
                     </Carousel>
                 </div>
                 <div className={classes.loginForm}>
-                    <UserLogin/>
+                    <UserLogin />
                 </div>
             </div>
             <footer className={classes.bottom}>

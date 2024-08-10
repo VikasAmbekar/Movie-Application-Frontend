@@ -152,3 +152,3981 @@ exports[`Home Component matches snapshot 1`] = `
   </footer>
 </DocumentFragment>
 `;
+
+exports[`Home Component renders movie carousel with movie images and titles 1`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 2`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 3`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 4`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 5`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 6`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 7`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 8`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 9`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 10`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 11`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 12`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 13`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 14`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 15`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 16`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 17`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 18`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 19`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 20`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 21`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 22`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 23`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 24`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 25`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Home Component renders movie carousel with movie images and titles 26`] = `
+<DocumentFragment>
+  <header
+    class="headerTop"
+  >
+    <div
+      class="logo"
+    >
+      <h5
+        class="logolink"
+      >
+        MovieMate
+      </h5>
+    </div>
+    <div
+      class="adminlogin"
+    >
+      <button
+        class="adminbtn"
+      >
+        User SignUp
+      </button>
+    </div>
+  </header>
+  <div
+    class="maininfo"
+  >
+    <div
+      class="carousel"
+    >
+      <div
+        class="carousel slide carousel-fade"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="loginForm"
+    >
+      <div>
+        <form
+          class="loginForm"
+        >
+          <div>
+             
+            <br />
+            <h2>
+               Login Form 
+            </h2>
+             
+            <br />
+            <label
+              class="loginLabel"
+              for="mobile"
+            >
+              Mobile Number
+            </label>
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="mobile"
+              required=""
+              type="tel"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              for="password"
+            >
+              Password
+            </label>
+             
+            <br />
+            <input
+              autocomplete="off"
+              class="loginInput"
+              id="password"
+              required=""
+              type="password"
+              value=""
+            />
+          </div>
+          <br />
+          <button
+            class="loginButtom"
+            type="submit"
+          >
+            Login
+          </button>
+          <br />
+          <p
+            class="loginSignUpP"
+          >
+            Don't have account click here 
+            <a
+              class="loginSignUp"
+            >
+              Sign up
+            </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="bottom"
+  >
+    <p>
+      Copyright
+    </p>
+  </footer>
+</DocumentFragment>
+`;
