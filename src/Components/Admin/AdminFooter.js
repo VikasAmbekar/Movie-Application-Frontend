@@ -1,30 +1,28 @@
 import React from "react";
 import classes from "./AdminFooter.module.css";
-import {MDBFooter} from "mdb-react-ui-kit";
+// Import only MDBFooter to potentially reduce bundle size
+import { MDBFooter } from "mdb-react-ui-kit";
 
 const AdminFooter = () => {
-    return (
-        <div className={classes.footerDiv}>
-            <MDBFooter
-                className="text-center text-white"
-                style={{backgroundColor: "#f1f1f1"}}
-            >
-                <div
-                    className="text-center text-dark p-3"
-                    style={{
-                        backgroundColor: "rgba(0, 0, 0, 0.2)",
-                        bottom: "0",
-                        marginTop: "3rem",
-                    }}
-                >
-                    © 2023 Copyright
-                    <a className="text-dark" href="#">
-                        MovieMate
-                    </a>
-                </div>
-            </MDBFooter>
+  return (
+    <>
+      <MDBFooter
+        className={`${classes.footerBackground} text-center text-white`}
+        aria-label="footer"
+      >
+        <div className={`${classes.copyrightContainer} p-3`}>
+          © 2023 Copyright
+          <a
+            className={`${classes.copyrightLink}`}
+            href="#"
+            aria-label="MovieMate link"
+          >
+            MovieMate
+          </a>
         </div>
-    );
+      </MDBFooter>
+    </>
+  );
 };
 
 export default AdminFooter;

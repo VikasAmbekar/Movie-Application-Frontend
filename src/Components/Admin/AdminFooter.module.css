@@ -4,3 +4,22 @@
   z-index: 5;
   height: 0.5rem;
 }
+
+.footerBackground {
+  background-color: #f1f1f1;
+}
+
+.copyrightContainer {
+  text-align: center;
+  color: dark;
+  padding: 3rem 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.copyrightLink {
+  color: dark;
+  margin-left: 0.5rem;
+}
